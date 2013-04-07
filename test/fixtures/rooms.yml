@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  NorthImage: MyString
+  SouthImage: MyString
+  EastImage: MyString
+  WestImage: MyString
+  NorthRoom: 1
+  SouthRoom: 1
+  EastRoom: 1
+  WestRoom: 1
+
+two:
+  NorthImage: MyString
+  SouthImage: MyString
+  EastImage: MyString
+  WestImage: MyString
+  NorthRoom: 1
+  SouthRoom: 1
+  EastRoom: 1
+  WestRoom: 1

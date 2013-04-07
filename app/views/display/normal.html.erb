@@ -1,0 +1,12 @@
+<h1><%= @room.name %></h1>
+<%= image_tag "room/"+@room.image(cookies[:direction]), width: "600px" %>
+<p><%= @room.description %></p>
+
+<div id="nav">
+<%= link_to image_tag("arrow/blue/up.png", mouseover: "arrow/green/up.png"), action: "forward"%>
+<div>
+<%= link_to image_tag("arrow/blue/left.png", mouseover: "arrow/green/left.png"), action: "left"%>
+<%= link_to image_tag("arrow/blue/down.png", mouseover: "arrow/green/down.png"), action: "backward"%>
+<%= link_to image_tag("arrow/blue/right.png", mouseover: "arrow/green/right.png"), action: "right"%>
+</div>
+</div>
